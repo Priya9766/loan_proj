@@ -4,7 +4,7 @@ from flask import Flask,request,render_template
 import pickle
 
 
-
+#hi
 
 with open('scaler.pkl','rb') as scaler_file:
     scaler=pickle.load(scaler_file)
